@@ -1,26 +1,18 @@
-# Contact Keeper
+# ITLogger
 
-> Full stack MERN contact manager with React hooks, context & JWT authentication. Part of my React Qurantine traning.
-
-This is the full app. The API can be found [here](https://github.com/bradtraversy/contact_keeper_api) with documented endpoints
+> React app to track IT department tasks and issues. Uses JSON-Server as a mock backend. This is part of my React course on Udemy
 
 ## Usage
 
-Install dependencies
+### `npm install`
 
-```bash
-npm install
-npm client-install
-```
+### `npm run dev`
 
-### Mongo connection setup
+Runs the app with the backend JSON-Server<br>
+Open [http://localhost:3000](http://localhost:3000)
+Server [http://localhost:5000](http://localhost:5000)
+db.json contains data
 
-Edit your /config/default.json file to include the correct MongoDB URI
+### `npm run build`
 
-### Run Server
-
-```bash
-npm run dev     # Express & React :3000 & :5000
-npm run server  # Express API Only :5000
-npm run client  # React Client Only :3000
-```
+Builds the app for production to the `build` folder.<br>
